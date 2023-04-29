@@ -10,7 +10,7 @@
 
     <title>
         <?php 
-        $page_name = basename($_SERVER['SCRIPT_NAME'],".php");
+        include('functions/page_name.php');
         print_r(strtoupper($page_name));
         ?>  
         PAGE
@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
 <!--
 
 TemplateMo 572 Designer

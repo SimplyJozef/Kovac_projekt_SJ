@@ -7,21 +7,21 @@
 
     <?php include('partials/header.php') ?>
 
+
   <div class="main-banner change-name">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-12">
-                  <div class="header-text">
-                      <h6>We Provide Everything</h6>
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-text">
+                    <h6>We Provide Everything</h6>
                       <h2><em>Interior</em> Designer</h2>
-                      <div class="white-button">
-                          <a href="#">Discover More</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+                      <p><?php include('partials/page_quotes.php') ?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
   <div class="search-form">
       <div class="container">

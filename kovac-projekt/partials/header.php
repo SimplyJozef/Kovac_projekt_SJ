@@ -1,4 +1,5 @@
 <header id="#top">
+
       <nav class="main-navigation navbar navbar-expand-lg navbar-light">
           <div class="container">
             <a class="navbar-brand" href="index.php"><img src="assets/images/white-logo.png" alt=""></a>
@@ -14,7 +15,9 @@
 
                 <?php
                 include('functions/menu.php');
-                 print_menu($menu); ?>
+                 print_menu($menu); 
+                 include('functions/config.php');
+                 ?>
             </div>
           </div>
       </nav>
