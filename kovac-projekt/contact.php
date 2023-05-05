@@ -40,7 +40,7 @@
                 <div class="contact-page-form">
                     <div class="row">
                         <div class="col-lg-6 align-self-center">
-                            <form id="contact" action="" method="post">
+                            <form id="contact" action="contact/insert.php" method="post">
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="section-heading">
@@ -63,7 +63,7 @@
                                         <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>                          
                                     </div>
                                     <div class="col-lg-12">
-                                        <button type="submit" id="form-submit" class="main-button ">Send Message</button>                            
+                                        <button type="submit" id="form-submit" class="main-button" name="form-submit">Send Message</button>                            
                                     </div>
                                 </div>
                             </form>
