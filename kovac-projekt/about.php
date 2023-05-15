@@ -1,10 +1,11 @@
 <?php include('partials/head.php') ?>
 
-<body>
 
-<?php include('partials/loader.php') ?>
 
-<?php include('partials/header.php') ?>
+
+
+
+
 
   <div class="page-banner change-name">
         <div class="container">
@@ -12,7 +13,9 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="header-text">
                         <h2><em>About</em> Designer</h2>
+
                         <p><?php include('partials/page_quotes.php') ?></p>
+
                     </div>
                 </div>
             </div>
@@ -216,7 +219,10 @@
 
     <?php include('partials/footer.php')?>
     
-    <?php include('partials/scripts.php')?>
+
+
+
+
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->

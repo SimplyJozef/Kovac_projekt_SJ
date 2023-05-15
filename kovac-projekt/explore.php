@@ -1,12 +1,9 @@
 <?php include('partials/head.php') ?>
 
-<body>
 
-<?php include('partials/loader.php') ?>
   
 
     
-<?php include('partials/header.php') ?>
 
     <div class="page-banner change-name">
         <div class="container">
@@ -138,8 +135,7 @@
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <?php include('partials/scripts.php')?>
-  <?php include('partials/scripts.php')?>
+
   <script>
     setTimeout(function(){
         $('.loader').fadeToggle();

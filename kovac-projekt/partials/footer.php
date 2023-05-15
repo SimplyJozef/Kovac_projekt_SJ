@@ -57,7 +57,7 @@
 
                 <div class="col-lg-6 offset-lg-6">
                     <h4>Subscribe To Our Newsletter</h4>
-                    <form id="subscribe" action="newsletter/insert.php" method="post">
+                    <form id="subscribe" action="newsletter/insert-delete.php" method="post">
                         <div class="row">
                             <div class="col-lg-12">
                                 <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Type your email..." required=""> 
@@ -106,3 +106,13 @@
             </div>
         </div>
     </footer>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
