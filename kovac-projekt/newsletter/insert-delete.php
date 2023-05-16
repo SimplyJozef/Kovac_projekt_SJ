@@ -4,14 +4,14 @@ $db =  new Database();
 
 if(isset($_POST['form-submit'])){
 
-        $data = [
-            'email' => $_POST["email"]
-        ];
+    $data = $_POST["email"];
 
         try{
             $query = "INSERT INTO newsletter (Email) VALUES (:email)";
             $query_run = $db->conn->prepare($query);
-            $query_run->execute($data);
+            $query_run->bindParam(':email', $data);
+            $query_run->execute();
+
             if(isset($_SERVER['HTTP_REFERER'])){
                 header("Location: {$_SERVER['HTTP_REFERER']}");
             }else{
@@ -26,14 +26,14 @@ if(isset($_POST['form-submit'])){
 
 if(isset($_POST['form-delete'])){
 
-    $data = [
-        'email' => $_POST["email"]
-    ];
+    $data = $_POST["email"];
 
     try{
         $query = "DELETE FROM newsletter WHERE Email = :email";
         $query_run = $db->conn->prepare($query);
-        $query_run->execute($data);
+        $query_run->bindParam(':email', $data);
+        $query_run->execute();
+
         if(isset($_SERVER['HTTP_REFERER'])){
             header("Location: {$_SERVER['HTTP_REFERER']}");
         }else{

@@ -1,12 +1,5 @@
 <?php include('partials/head.php') ?>
 
-
-
-
-
-
-
-
   <div class="page-banner change-name">
         <div class="container">
             <div class="row">
