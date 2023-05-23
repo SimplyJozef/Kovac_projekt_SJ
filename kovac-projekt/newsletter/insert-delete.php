@@ -21,7 +21,7 @@ if(isset($_POST['form-submit'])){
             print_r($e->getMessage());
         }   
 }else{
-    print_r("F");
+    print_r("Chyba");
 }
 
 if(isset($_POST['form-delete'])){
@@ -29,6 +29,8 @@ if(isset($_POST['form-delete'])){
     $data = $_POST["email"];
 
     try{
+
+        
         $query = "DELETE FROM newsletter WHERE Email = :email";
         $query_run = $db->conn->prepare($query);
         $query_run->bindParam(':email', $data);
@@ -43,7 +45,7 @@ if(isset($_POST['form-delete'])){
         print_r($e->getMessage());
     }   
 }else{
-print_r("F");
+print_r("Chyba");
 }
 
 ?>

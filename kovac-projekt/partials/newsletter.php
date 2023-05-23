@@ -1,3 +1,5 @@
+
+
 <div class="col-lg-6 offset-lg-6">
                     <h4>Subscribe To Our Newsletter</h4>
                     <form id="subscribe" action="newsletter/insert-delete.php" method="post">
@@ -17,6 +19,7 @@
                                 <button type="submit" id="form-delete" class="text-button" name="form-delete" style="position: relative; padding-left: 20px; text-decoration: underline; color: red;">
                                     Unsubscribe            
                                 </button>
+                               
                             </div>
                         </div> 
                         
